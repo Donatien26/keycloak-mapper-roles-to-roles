@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fr.insee.keycloak</groupId>
 	<artifactId>keycloak-mapper-roles-to-roles</artifactId>
-	<version>1.1.0-SNAPSHOT</version>
+	<version>1.0.1</version>
 	<name>keycloak-roles-to-roles</name>
 	<description>Map All Keycloak from one instance to another</description>
 	<properties>
