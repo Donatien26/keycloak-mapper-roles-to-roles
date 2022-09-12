@@ -28,7 +28,7 @@ public final class ExternalKeycloakRolesToRolesMapper extends AbstractClaimMappe
     public static final String[] COMPATIBLE_PROVIDERS = { KeycloakOIDCIdentityProviderFactory.PROVIDER_ID,
             OIDCIdentityProviderFactory.PROVIDER_ID };
 
-    private static final List<ProviderConfigProperty> configProperties = new ArrayList<ProviderConfigProperty>();
+    private static final List<ProviderConfigProperty> configProperties = new ArrayList<>();
     private static final String CLAIMS_NAME = "claims.name";
     private static final Set<IdentityProviderSyncMode> IDENTITY_PROVIDER_SYNC_MODES = new HashSet<>(
             Arrays.asList(IdentityProviderSyncMode.values()));
@@ -45,7 +45,7 @@ public final class ExternalKeycloakRolesToRolesMapper extends AbstractClaimMappe
         configProperties.add(property);
     }
 
-    public static final String PROVIDER_ID = "keycloak-oidc-role-to-role-idp-mapper";
+    public static final String PROVIDER_ID = "keycloak-oidc-roles-to-roles-idp-mapper";
 
     @Override
     public boolean supportsSyncMode(IdentityProviderSyncMode syncMode) {
@@ -74,7 +74,7 @@ public final class ExternalKeycloakRolesToRolesMapper extends AbstractClaimMappe
 
     @Override
     public String getDisplayType() {
-        return "External Role to Role";
+        return "External Roles to Roles";
     }
 
     @Override
