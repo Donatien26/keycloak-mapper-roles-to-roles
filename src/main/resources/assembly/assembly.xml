@@ -7,7 +7,7 @@
     <includeBaseDirectory>false</includeBaseDirectory>
     <files>
         <file>
-            <source>target/mapper-roles-to-roles-${project.version}.jar</source>
+            <source>target/keycloak-mapper-roles-to-roles-${project.version}.jar</source>
             <outputDirectory />
             <destName>keycloak-mapper-roles-to-roles.jar</destName>
         </file>
