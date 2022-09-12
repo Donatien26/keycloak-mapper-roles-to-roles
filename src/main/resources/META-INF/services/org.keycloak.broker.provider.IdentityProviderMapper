@@ -1,1 +1,1 @@
-fr.insee.keycloak.mapper.KeycloakRolesToRolesMapper
+fr.insee.keycloak.mapper.ExternalKeycloakRolesToRolesMapper
